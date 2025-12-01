@@ -4,13 +4,12 @@
 - Added standardized warnings for missing, empty, or very short sections (< 50 words).
 - Strengthened rules preventing hallucinations and use of information not found in the source text.
 
----
+
 
 ## Guardrail Rules
 
 These rules ensure the summarizer uses only information present in the provided text and signals when a section does not contain enough information for a reliable summary.
 
----
 
 ## 1. Strict Evidence Mode
 
@@ -25,7 +24,7 @@ When `evidence_mode = "strict"`:
 
     > “The source text does not provide enough detail to summarize this section in strict evidence mode.”
 
----
+
 
 ## 2. Section Warning Messages
 
@@ -41,7 +40,6 @@ Before summarizing any section:
 
 Warnings must appear before the generated summary (if a summary is produced).
 
----
 
 ## 3. Grounding and Source-Bound Behavior
 
