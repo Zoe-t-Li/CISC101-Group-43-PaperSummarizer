@@ -5,13 +5,13 @@
 - Ensured summaries still follow the 200-word maximum.
 - Updated instructions to match the original module’s style while incorporating new requirements.
 
----
+
 
 ## Section Loop Instructions
 
 For each section, the system must extract the section text, generate a summary following the configured rules, apply length constraints, and store the summarized content in a structured format. The detail level of the summary is controlled by the `summary_level` variable.
 
----
+
 
 ## Summary Level Configuration
 
@@ -23,7 +23,7 @@ For each section, the system must extract the section text, generate a summary f
     - A short descriptive paragraph, **and**
     - A bullet list of **3–5 key points** extracted directly from the section.
 
----
+
 
 ## Section Loop
 
